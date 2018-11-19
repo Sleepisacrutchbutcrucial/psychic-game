@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>Hangman Game</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>The psyhcic Game of Chance</h1>
+      <h3>Come one come all! Guess Me If You Dare!</h3>
+    </header>
+   
+      <div class="presstobegin">Begin by pressing any alphabetic key to see your results. Just know, the fist tap of the
+        keyboard will be your first guess. Thus begins the game!
+      </div>
+
+      
+      <div id="numGuesses" onclick="myFunction()">number of guesses</div>
+      <div id="ltrGuess" onclick="myFunction()"> Incorrect letters</div>
+      <div id='winCounter' onclick="myFuntion()">wins</div>
+      <div id="lossCounter" onclick="myFunction()">losses</div>
+    </div>
+
+  </div>
+</body>
+
+<script src="game.js"></script>
+
+</html>
